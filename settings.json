@@ -58,6 +58,9 @@
     "editor.overviewRulerBorder": false,
     "editor.padding.bottom": 16,
     "editor.padding.top": 16,
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.horizontalScrollbarSize": 0,
     "editor.scrollbar.vertical": "hidden",
@@ -111,6 +114,9 @@
 
     // Files
     "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
@@ -143,6 +149,14 @@
 
     // Security
     "security.workspace.trust.untrustedFiles": "open",
+
+    // Tailwindcss
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+
+    // Telemetry
+    "telemetry.telemetryLevel": "off",
 
     // Terminal
     "terminal.integrated.fontSize": 15,
