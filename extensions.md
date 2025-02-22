@@ -26,7 +26,7 @@
 
 
 ### Tailwind
-[Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)
+[Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind) <br>
 [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 
