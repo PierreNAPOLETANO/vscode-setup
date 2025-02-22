@@ -3,9 +3,9 @@
 ### Common
 [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) <br>
 [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) <br>
-[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) <br>
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) <br>
+[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) <br>
 [Template String Converter](https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter)
 
 
