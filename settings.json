@@ -5,6 +5,14 @@
     // Breadcrumbs
     "breadcrumbs.enabled": false,
 
+    // Chat
+    "chat.editor.wordWrap": "on",
+
+    // Diff Editor
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.wordWrap": "on",
+
     // Editor
     "editor.accessibilitySupport": "off",
     "editor.acceptSuggestionOnCommitCharacter": false,
@@ -23,8 +31,9 @@
     "editor.cursorWidth": 4,
     "editor.detectIndentation": false,
     "editor.emptySelectionClipboard": false,
-    "editor.fontFamily": "Operator Mono Lig",
-    "editor.fontSize": 15,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+    "editor.fontSize": 14,
     "editor.formatOnSave": false,
     "editor.formatOnPaste": false,
     "editor.gotoLocation.multipleDeclarations": "goto",
@@ -38,10 +47,8 @@
     "editor.hover.enabled": false,
     "editor.inlineSuggest.suppressSuggestions": true,
     "editor.lightbulb.enabled": "off",
-    "editor.insertSpaces": true,
-    "editor.letterSpacing": 0.2,
     "editor.lineHeight": 45,
-    "editor.lineNumbers": "on",
+    "editor.lineNumbers": "off",
     "editor.linkedEditing": true,
     "editor.matchBrackets": "never",
     "editor.minimap.enabled": false,
@@ -49,9 +56,11 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.occurrencesHighlight": "off",
     "editor.overviewRulerBorder": false,
-    "editor.padding.bottom": 30,
-    "editor.padding.top": 30,
-    "editor.renderLineHighlight": "none",
+    "editor.padding.bottom": 16,
+    "editor.padding.top": 16,
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.horizontalScrollbarSize": 0,
     "editor.scrollbar.vertical": "hidden",
@@ -63,9 +72,28 @@
     "editor.suggest.insertMode": "replace",
     "editor.suggestLineHeight": 28,
     "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "trailing",
-    "editor.tabSize": 4,
-    "editor.trimAutoWhitespace": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "comment.block",
+                    "comment.line",
+                    "entity.other.attribute-name",
+                    "entity.other.attribute-name.html",
+                    "keyword",
+                    "keyword.control",
+                    "storage.type",
+                    "variable.language"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
     "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
@@ -78,28 +106,32 @@
     },
     "emmet.triggerExpansionOnTab": true,
 
-     // Explorer
-     "explorer.autoReveal": false,
-     "explorer.confirmDelete": false,
-     "explorer.confirmDragAndDrop": false,
-     "explorer.sortOrder": "type",
-
-    // Extensions
-    "extensions.ignoreRecommendations": true,
+    // Explorer
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
 
     // Files
-     "files.autoSave": "onFocusChange",
-     "files.associations": {
-         "*.css": "tailwindcss"
-     },
-     "files.hotExit": "off",
-     "files.insertFinalNewline": true,
-     "files.trimFinalNewlines": true,
-     "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
 
-     // Git
-     "git.confirmSync": false,
+    // Git
     "git.decorations.enabled": false,
+
+    // Notebook
+    "notebook.output.wordWrap": true,
+
+    // Problems
+    "problems.decorations.enabled": false,
+
+    // SCM
+    "scm.diffDecorations": "none",
 
     // Search
     "search.exclude": {
@@ -126,6 +158,11 @@
     // Telemetry
     "telemetry.telemetryLevel": "off",
 
+    // Terminal
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.gpuAcceleration": "on",
+
     // Window
     "window.commandCenter": false,
     "window.newWindowDimensions": "inherit",
@@ -135,10 +172,9 @@
 
     // Workbench
     "workbench.activityBar.location": "hidden",
-    "workbench.colorTheme": "Inspired Github",
+    "workbench.colorTheme": "",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.editor.showTabs": "single",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.statusBar.visible": false,
     "workbench.startupEditor": "none",
