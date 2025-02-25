@@ -48,7 +48,6 @@
     "editor.inlineSuggest.suppressSuggestions": true,
     "editor.lightbulb.enabled": "off",
     "editor.lineHeight": 45,
-    "editor.lineNumbers": "off",
     "editor.linkedEditing": true,
     "editor.matchBrackets": "never",
     "editor.minimap.enabled": false,
@@ -172,7 +171,7 @@
 
     // Workbench
     "workbench.activityBar.location": "hidden",
-    "workbench.colorTheme": "",
+    "workbench.colorTheme": "Tokyo Night",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.iconTheme": "material-icon-theme",
