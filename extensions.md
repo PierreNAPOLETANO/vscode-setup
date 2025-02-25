@@ -8,15 +8,8 @@
 [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) <br>
 [Template String Converter](https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter)
 
-
 ### Laravel
-[Laravel Blade formatter](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter) <br>
-[Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade) <br>
-[Laravel Blade Spacer](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-blade-spacer) <br>
-[Laravel Extra Intellisense](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense) <br>
-[Laravel goto view](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view) <br>
-[Laravel Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
-
+[Laravel](https://marketplace.visualstudio.com/items?itemName=laravel.vscode-laravel)
 
 ### PHP
 [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker) <br>
@@ -24,15 +17,12 @@
 [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) <br>
 [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver) <br>
 
-
 ### Tailwind
 [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind) <br>
 [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-
 ### Typescript
 [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
-
 
 ### Vue
 [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
